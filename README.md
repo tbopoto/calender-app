@@ -1,13 +1,11 @@
 # calender-app
 
-**Tier:** 3-Advanced
-
-Build a calendar application to organize you daily life. Add functionality to add events and reminder.
-Style your own calendar according to your requirement
+Building a calendar application to organize you daily life. Add functionality to add events and reminder.
+Also give option for users to style their own calendar according to requirements
 
 - Understanding how calendar application works
 - Only basic understanding of HTML/CSS and JS is required
-- Working on more features help you learning advance concepts of JS
+- Working on more features help learn advanced concepts of JavaSscript
 
 ## User Stories
 
@@ -19,7 +17,7 @@ Style your own calendar according to your requirement
 
 - [ ] User can drag events between dates
 - [ ] User can set reminder for a event
-- [ ] Change theme (light/dark) (play with css), play with css 😄
+- [ ] Change theme (light/dark) (play with css), play with css 
 - [ ] Store data locally so that events does not get deleted when server is restarted
 
 ## Useful links and resources
