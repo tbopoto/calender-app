@@ -1,0 +1,45 @@
+// calendar.js
+
+let currentDate = new Date();
+
+function generateCalendar() {
+  const calendarBody = document.getElementById('calendar-body');
+  calendarBody.innerHTML = '';
+
+  const firstDay = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
+  const lastDay = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+
+  let currentDatePointer = new Date(firstDay);
+
+  while (currentDatePointer <= lastDay) {
+    const row = document.createElement('tr');
+
+    for (let i = 0; i < 7; i++) {
+      const cell = document.createElement('td');
+      cell.textContent = currentDatePointer.getDate();
+
+      // Check if the date is today
+      if (currentDatePointer.toDateString() === new Date().toDateString()) {
+        cell.classList.add('event');
+      }
+
+      row.appendChild(cell);
+      currentDatePointer.setDate(currentDatePointer.getDate() + 1);
+    }
+
+    calendarBody.appendChild(row);
+  }
+}
+
+function previousMonth() {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  generateCalendar();
+}
+
+function nextMonth() {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  generateCalendar();
+}
+
+// Initial calendar generation
+generateCalendar();
