@@ -1,6 +1,6 @@
 # calender-app
 
-Building a calendar application to organize you daily life. Add functionality to add events and reminder.
+Building a calendar application to organize you daily life. Add functionality to create events and reminders.
 Also give option for users to style their own calendar according to requirements
 
 - Understanding how calendar application works
