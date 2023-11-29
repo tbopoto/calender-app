@@ -1,6 +1,6 @@
 // calendar.js
 
-let currentDate = new Date();
+let currentDate = new date();
 
 function generateCalendar() {
   const calendarBody = document.getElementById('calendar-body');
