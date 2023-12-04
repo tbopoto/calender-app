@@ -27,6 +27,7 @@
         <th>Sat</th>
       </tr>
     </thead>
+THE END
     <tbody id="calendar-body"></tbody>
   </table>
 
