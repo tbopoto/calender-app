@@ -43,4 +43,3 @@ function nextMonth() {
 
 // Initial calendar generation
 generateCalendar();
-THE END
