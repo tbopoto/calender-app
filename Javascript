@@ -15,7 +15,7 @@ function generateCalendar() {
     const row = document.createElement('tr');
 
     for (let i = 0; i < 7; i++) {
-      const cell = document.createElement('td');
+      const cell = document.createElement('TD');
       cell.textContent = currentDatePointer.getDate();
 
       // Check if the date is today
