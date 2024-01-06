@@ -4,7 +4,7 @@ Building a calendar application to organize you daily life. Add functionality to
 Also give option for users to style their own calendar according to requirements
 
 - Understanding how calendar application works
-- Only basic understanding of HTML/CSS and JS is required
+- Only basic understanding of HTML/Css and JS is required
 - Working on more features help learn advanced concepts of JavaSscript
 
 ## User Stories
